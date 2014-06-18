@@ -1,0 +1,5 @@
+	case 1:fruit_type="优质苹果";break;
+	case 2:fruit_type="中等苹果";break;
+	case 3:fruit_type="橘子";	break;
+	case 4:fruit_type="香蕉";	break;
+	case 5:fruit_type="梨子";	break;

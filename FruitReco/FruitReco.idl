@@ -1,0 +1,57 @@
+// FruitReco.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(FruitReco.tlb)，该类型库将成为
+// FruitReco.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(D5868B35-D358-4158-B5C0-1C20E83AB2D9), version(1.0),
+  control ]
+library FruitRecoLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CFruitRecoCtrl 的主调度接口
+	[ 
+		uuid(8F8F657E-6647-477D-ACEF-75B376E31E7A)	
+	]
+	dispinterface _DFruitReco
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1)] void CreateBG(BSTR path_saveBG);
+			[id(2)] void TrainFruit(BSTR name_fruit, SHORT index_fruit, BSTR path_fruit);
+			[id(3)] void Init(void);
+			[id(4)] void OpenCamera(void);
+			//[id(5)] BSTR Recognize(void);
+			[id(6)] BSTR RecognizeFruit(BSTR path_fruits);
+	};
+
+	//  CFruitRecoCtrl 的事件调度接口
+
+	[ 
+		uuid(0A059C64-4679-4EDF-8001-F9767CD5F9C9)	
+	]
+	dispinterface _DFruitRecoEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CFruitRecoCtrl 的类信息
+	[
+		uuid(E9E8D6E8-ABFF-483A-A7FD-BF98059B2513)
+	]
+	coclass FruitReco
+	{
+		[default] dispinterface _DFruitReco;
+		[default, source] dispinterface _DFruitRecoEvents;
+	};
+
+};

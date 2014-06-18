@@ -1,0 +1,91 @@
+﻿生成启动时间为 2013/3/30 13:43:53。
+     1>项目“C:\Users\LiZhibo\Desktop\水果分类\FruitReco\FruitReco.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\FruitReco.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\FruitReco.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       Midl:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\midl.exe /D NDEBUG /W1 /nologo /char signed /env win32 /h "FruitRecoidl.h" /tlb "Release\FruitReco.tlb" /robust FruitReco.idl 
+         Processing .\FruitReco.idl
+         FruitReco.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\oaidl.idl
+         oaidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\objidl.idl
+         objidl.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\unknwn.idl
+         unknwn.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\wtypes.idl
+         wtypes.idl
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\basetsd.h
+         basetsd.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\guiddef.h
+         guiddef.h
+         Processing C:\Program Files\Microsoft SDKs\Windows\v7.1\Include\oaidl.acf
+         oaidl.acf
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\FruitReco.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\FruitReco.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CvvImage.cpp FruitReco.cpp FruitRecoCtrl.cpp FruitRecoPropPage.cpp "最近临分类器.cpp"
+         CvvImage.cpp
+         FruitReco.cpp
+         FruitRecoCtrl.cpp
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>C:\Program Files\OpenCV\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 C:\Program Files\OpenCV\opencv\build\include\opencv2/flann/flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>FruitRecoCtrl.cpp(315): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>FruitRecoCtrl.cpp(318): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>FruitRecoCtrl.cpp(321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>FruitRecoCtrl.cpp(325): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>FruitRecoCtrl.cpp(326): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>FruitRecoCtrl.cpp(393): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>FruitRecoCtrl.cpp(394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>FruitRecoCtrl.cpp(395): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>FruitRecoCtrl.cpp(404): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>FruitRecoCtrl.cpp(405): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>FruitRecoCtrl.cpp(406): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         FruitRecoPropPage.cpp
+         最近临分类器.cpp
+     1>c:\program files\opencv\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>C:\Program Files\OpenCV\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 C:\Program Files\OpenCV\opencv\build\include\opencv2/flann/flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>最近临分类器.cpp(114): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>最近临分类器.cpp(86): warning C4101: “i”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\FruitReco.res" FruitReco.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.ocx" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d231.lib opencv_calib3d231d.lib opencv_contrib231.lib opencv_contrib231d.lib opencv_core231.lib opencv_core231d.lib opencv_features2d231.lib opencv_features2d231d.lib opencv_flann231.lib opencv_flann231d.lib opencv_gpu231.lib opencv_gpu231d.lib opencv_haartraining_engine.lib opencv_haartraining_engined.lib opencv_highgui231.lib opencv_highgui231d.lib opencv_imgproc231.lib opencv_imgproc231d.lib opencv_legacy231.lib opencv_legacy231d.lib opencv_ml231.lib opencv_ml231d.lib opencv_objdetect231.lib opencv_objdetect231d.lib opencv_ts231.lib opencv_ts231d.lib opencv_video231.lib opencv_video231d.lib /DEF:".\FruitReco.def" /MANIFEST /ManifestFile:"Release\FruitReco.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.lib" /MACHINE:X86 /DLL Release\FruitReco.res
+         Release\CvvImage.obj
+         Release\FruitReco.obj
+         Release\FruitRecoCtrl.obj
+         Release\FruitRecoPropPage.obj
+         Release\stdafx.obj
+         "Release\最近临分类器.obj"
+            正在创建库 C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.lib 和对象 C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.exp
+         正在生成代码
+         已完成代码的生成
+         FruitReco.vcxproj -> C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.ocx
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.ocx;#2" /manifest Release\FruitReco.ocx.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       RegisterOutput:
+         regsvr32 /s "C:\Users\LiZhibo\Desktop\水果分类\Release\FruitReco.ocx"
+       FinalizeBuildStatus:
+         正在删除文件“Release\FruitReco.unsuccessfulbuild”。
+         正在对“Release\FruitReco.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\LiZhibo\Desktop\水果分类\FruitReco\FruitReco.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.64
